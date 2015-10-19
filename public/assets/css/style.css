@@ -8540,3 +8540,45 @@ sup  { font-size: 36px; font-weight: 100; line-height: 10px; }
   right: 0;
   top: 50%;
 }
+
+.margin p
+{ margin-bottom:10px;
+font-family:"Baar Sophia";
+font-size:18px; 
+}
+
+.forms
+{ background-color:#333;
+	}
+
+.jumbotron {
+background: #358CCE;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
+.address p
+{ font-family:"Courier New", Courier, monospace;
+text-align:justify;
+float:left;
+
+	}
+
+
+
+
+
+
+
+
+
+
+

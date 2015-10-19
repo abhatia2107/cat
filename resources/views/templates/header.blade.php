@@ -4,7 +4,7 @@
 		<div class="container">
 
 			<!-- LOGO -->
-			<div class="logo"><p style="color:#fff; font-size:25px; font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;" >CAT</p></div>
+			<div class="logo"><a href="{{url('/')}}"> <p style="color:#fff; font-size:25px; font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;" >CAT</p></a></div>
 			<!-- END / LOGO -->
 
 			<!-- NAVIGATION -->

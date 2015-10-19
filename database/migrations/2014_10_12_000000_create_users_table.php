@@ -21,7 +21,7 @@ class CreateUsersTable extends Migration
             $table->string('phone')->unique();
             $table->string('imageurl');
             $table->string('password', 60);
-            $table->string('confirmation_code',90);
+            $table->string('confirmation_code',90)->nullable();
             $table->boolean('confirmed')->default(0);
             $table->integer('login_type')->foreign('login_type')->references('id')->on('logintypes');
             $table->integer('cat_status')->foreign('cat_status')->references('id')->on('cat_statuses');

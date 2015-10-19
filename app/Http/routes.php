@@ -14,7 +14,7 @@
 Route::get('/', 'PagesController@welcome');
 Route::get('/blog-single', 'PagesController@blog_single');
 Route::get('/blog-list', 'PagesController@blog_list');
-Route::get('/auth/register/verify/{userId}/{confirmationCode}','Auth\AuthController@getEmailVerify');
+Route::get('/auth/register/verify/{id}/{confirmation_code}','Auth\AuthController@getEmailVerify');
 
 
 // Authentication routes...
@@ -54,3 +54,11 @@ Route::resource('status', 'StatusController');
 Route::resource('subexamtypes', 'SubExamTypesController');
 Route::resource('templatetype', 'TemplateTypeController');
 Route::resource('users', 'UsersController');
+
+Route::resource('contacts', 'ContactsController');
+
+Route::resource('author', 'AuthorController');
+Route::resource('blog', 'BlogController');
+Route::resource('tags', 'TagsController');
+
+Route::resource('subscription', 'SubscriptionController');

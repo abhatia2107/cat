@@ -34,7 +34,7 @@
                             <!-- POST BODY -->
                            <div class="post-body">
                                         <div class="post-title">
-                                            <h3 class="md"><a href="blog_single.blade.php">How to Create Course in this theme?</a></h3>
+                                            <h3 class="md"><a href="blog-single">How to Create Course in this theme?</a></h3>
                                         </div>
                                         <div class="post-meta">
                                             by <a href="#">Brendon</a> on September 8, 2015
@@ -43,7 +43,7 @@
                                             <p>In sed pellentesque leo. Nunc non ipsum ex. Sed mattis sem sit amet orci dapibus, eget feugiat urna porttitor. Etiam tincidunt at ex quis</p>
                                         </div>
                                         <div class="post-link">
-                                            <a href="blog_single.blade.php">
+                                            <a href="blog-single">
                                                 <i class="fa fa-play-circle-o"></i>
                                                 Read More
                                             </a>
@@ -66,7 +66,7 @@
                             <!-- POST BODY -->
                             <div class="post-body">
                                 <div class="post-title">
-                                    <h3 class="md"><a href="blog_single.blade.php">Top 10 Training Courses</a></h3>
+                                    <h3 class="md"><a href="blog-single">Top 10 Training Courses</a></h3>
                                 </div>
                                 <div class="post-meta">
                                     by <a href="#">Shane Wilson</a> on October 7, 2014
@@ -75,7 +75,7 @@
                                     <p>In sed pellentesque leo. Nunc non ipsum ex. Sed mattis sem sit amet orci dapibus, eget feugiat urna porttitor. Etiam tincidunt at ex quis</p>
                                 </div>
                                 <div class="post-link">
-                                    <a href="blog_single.blade.php">
+                                    <a href="blog-single">
                                         <i class="fa fa-play-circle-o"></i>
                                         Read More
                                     </a>
@@ -98,7 +98,7 @@
                             <!-- POST BODY -->
                             <div class="post-body">
                                 <div class="post-title">
-                                    <h3 class="md"><a href="blog_single.blade.php">Career Growth</a></h3>
+                                    <h3 class="md"><a href="blog-single">Career Growth</a></h3>
                                 </div>
                                 <div class="post-meta">
                                     by <a href="#">Lina Winston</a> on July 21, 2014
@@ -107,7 +107,7 @@
                                     <p>In sed pellentesque leo. Nunc non ipsum ex. Sed mattis sem sit amet orci dapibus, eget feugiat urna porttitor. Etiam tincidunt at ex quis</p>
                                 </div>
                                 <div class="post-link">
-                                    <a href="blog_single.blade.php">
+                                    <a href="blog-single">
                                         <i class="fa fa-play-circle-o"></i>
                                         Read More
                                     </a>
@@ -130,7 +130,7 @@
                             <!-- POST BODY -->
                             <div class="post-body">
                                 <div class="post-title">
-                                    <h3 class="md"><a href="blog_single.blade.php">Work with Dedication</a></h3>
+                                    <h3 class="md"><a href="blog-single">Work with Dedication</a></h3>
                                 </div>
                                 <div class="post-meta">
                                     by <a href="#">Stuart Finch</a> on December 21, 2014
@@ -139,7 +139,7 @@
                                     <p>In sed pellentesque leo. Nunc non ipsum ex. Sed mattis sem sit amet orci dapibus, eget feugiat urna porttitor. Etiam tincidunt at ex quis</p>
                                 </div>
                                 <div class="post-link">
-                                    <a href="blog_single.blade.php">
+                                    <a href="blog-single">
                                         <i class="fa fa-play-circle-o"></i>
                                         Read More
                                     </a>

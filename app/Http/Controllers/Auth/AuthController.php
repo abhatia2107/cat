@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Auth;
 use Mail;
 use Validator;
 use App\Http\Controllers\Controller;
@@ -78,7 +79,7 @@ class AuthController extends Controller
         $email = $data['email'];
         $subject= trans('auth.welcome', ['first_name', $data['first_name']]);
 
-        Mail::queue('emails.welcome', $data, function($message) use ($email, $first_name ,$subject)
+        Mail::queue('emails.verify', $data, function($message) use ($email, $first_name ,$subject)
         {
             $message->bcc("abhishek.bhatia@hobbyix.com","Abhishek Bhatia")->to($email, $first_name)->subject($subject);
         });
@@ -90,32 +91,53 @@ class AuthController extends Controller
     /**
      *Function to verify the email of the newly registered user.
      *
-     *@param integer id and string confirmation code;
+     *@param integer $id
+     *@param string $confirmation_code
      *@return Route to login
      */
-    public function getEmailVerify($id,$confirmationCode)
+    public function getEmailVerify($id, $confirmation_code)
     {
-        $validate=$this->user->find($id);
+        $validate=User::find($id);
         if($validate)
         {
             /* to check whether the email has been already verified or not  */
             if($validate->confirmed==1)
             {
-                return redirect('/')->with('success',Lang::get('user.email_already_verified'));
+                return redirect('/')->with('success',trans('user.email_already_verified'));
             }
             /* to check the whether confirmation code is matching or not */
-            if($validate->confirmation_code==$confirmationCode)
+            if($validate->confirmation_code==$confirmation_code)
             {
                 $validate->confirmed=1;
-                $validate->confirmation_code="";
+                $validate->confirmation_code=null;
                 $validate->save();
                 return $this->welcome($id);
             }
-            else
-            {
-                return redirect('/auth/register')->with('failure',Lang::get('user.email_verification_failed'));
-            }
         }
+        else
+        {
+            return redirect('/auth/register')->with('failure',trans('user.email_verification_failed'));
+        }
+    }
+
+    public function welcome($id)
+    {
+        Auth::loginUsingId($id);
+        $user=User::find($id)->toArray();
+        $email=$user['email'];
+        $name=$user['username'];
+        $data = [
+            'id' => $user['id'],
+            'first_name' => $user['first_name'],
+            'email' => $email,
+        ];
+
+        /*Welcome on board mail is to be sent to the newly registered user*/
+        $subject = trans('user.user_welcome_mail_subject');
+        Mail::queue('emails.welcome', $data, function ($message) use ($email, $name, $subject) {
+            $message->bcc("abhishek.bhatia@hobbyix.com","Abhishek Bhatia")->to($email, $name)->subject($subject);
+        });
+        return redirect('/')->with('success',trans('user.welcome',array("name"=>$user['first_name'])));
     }
 
 }
