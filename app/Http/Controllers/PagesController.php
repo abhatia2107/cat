@@ -36,6 +36,15 @@ class PagesController extends Controller
     {
         return view('pages.blog_list');
     }
+ /**
+     * To display blog-list page of the app
+     * @return \Illuminate\View\View
+     */
+
+    public function abhi()
+    {
+        return view('pages.abhi');
+    }
 
     /**
      * To display blog-single page of the app

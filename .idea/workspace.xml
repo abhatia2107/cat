@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="174f2abb-d7df-4b8b-9f9b-66467be3570c" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\app\Http\Controllers\SubscriptionController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\app\Subscriptions.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\database\migrations\2015_10_19_045120_create_subscriptions_table.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\database\migrations\2015_10_19_061301_create_subscriptions_table.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\resources\views\subscription\create.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\resources\views\subscription\edit.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\resources\views\subscription\index.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\laravel\cracku2\resources\views\subscription\show.blade.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/blog/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/blog/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cracku.iws" />
@@ -34,83 +26,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.538462">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.73077">
-              <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
+      <file leaf-file-name="abhi.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/abhi.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923">
-              <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.05851979">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="welcome.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/pages/welcome.blade.php">
+      <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/blog/show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.692308">
-              <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subexamtypes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Subexamtypes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015_10_19_083420_create_subscriptions_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_19_083420_create_subscriptions_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subscriptions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Subscriptions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2972028">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <element signature="e#24#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/blog/_show.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
+            <state vertical-scroll-proportion="-13.730769">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -119,18 +79,8 @@
       <file leaf-file-name="blog_single.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/pages/blog_single.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="344" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlogController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/BlogController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -152,9 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/templates/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/templates/message.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
@@ -169,7 +116,6 @@
         <option value="$PROJECT_DIR$/resources/lang/en/register.php" />
         <option value="$PROJECT_DIR$/config/mail.php" />
         <option value="$PROJECT_DIR$/resources/lang/en/auth.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
         <option value="$PROJECT_DIR$/resources/lang/user.php" />
@@ -200,9 +146,13 @@
         <option value="$PROJECT_DIR$/resources/views/blog/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/blog/show.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/database/migrations/2015_10_19_083420_create_subscriptions_table.php" />
         <option value="$PROJECT_DIR$/app/Subscriptions.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/views/pages/abhi.html" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/abhi.blade.php" />
       </list>
     </option>
   </component>
@@ -223,9 +173,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1370" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -250,7 +201,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,7 +215,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cracku2" />
+              <option name="myItemId" value="cat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,7 +225,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cracku2" />
+              <option name="myItemId" value="cat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aptimyze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aptimyze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aptimyze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -289,39 +301,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cracku2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aptimyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cracku2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aptimyze" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cracku2" />
+              <option name="myItemId" value="cat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,15 +309,56 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aptimyze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aptimyze" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="sub&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Subscriptions.php&#10;we&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/welcome.blade.php&#10;welcom&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/emails/welcome.blade.php&#10;inde&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/blog/index.blade.php&#10;subsc&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Subscriptions.php&#10;ro&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;sing&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/blog_single.blade.php&#10;show&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/blog/show.blade.php&#10;blogcon&#9;null&#9;null&#10;rou&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;master&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/layouts/master.blade.php&#10;blog_sin&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/blog_single.blade.php&#10;route&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;blog&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/blog_list.blade.php&#10;mas&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/layouts/master.blade.php&#10;boots&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/public/assets/css/library/bootstrap.min.css&#10;routes&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;crea&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/contacts/create.blade.php&#10;contac&#9;null&#9;null&#10;pas&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/Controllers/Auth/PasswordController.php&#10;rout&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;re&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php&#10;user.php&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/lang/user.php&#10;users&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2014_10_12_000000_create_users_table.php&#10;.en&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/.env&#10;mail.&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/config/mail.php&#10;header&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/templates/header.blade.php&#10;lo&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/auth/login.blade.php&#10;authc&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/Controllers/Auth/AuthController.php&#10;passwordco&#9;null&#9;null&#10;head&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/templates/head.blade.php&#10;app.p&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/config/app.php&#10;m&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/layouts/master.blade.php&#10;pages&#9;null&#9;null&#10;mockhi&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_210709_create_mockhistories_table.php&#10;temp&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204253_create_templatetypes_table.php&#10;ques&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_205056_create_questions_table.php&#10;mockques&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_211644_create_mockquestions_table.php&#10;questionst&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_210834_create_questionstatuses_table.php&#10;mockhis&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_211211_create_mockhistorydetails_table.php&#10;questiono&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_210212_create_questionoptions_table.php&#10;questiontype&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_205738_create_questiontypes_table.php&#10;tem&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204253_create_templatetypes_table.php&#10;questi&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_205056_create_questions_table.php&#10;exammock&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204503_create_exammocks_table.php&#10;templ&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204253_create_templatetypes_table.php&#10;examsub&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_203411_create_examsubtopics_table.php&#10;examtop&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_203316_create_examtopics_table.php&#10;examsec&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_203210_create_examsections_table.php&#10;exa&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_202949_create_examtypes_table.php" />
+    <property name="SearchEverywhereHistoryKey" value="rout&#9;FILE&#9;file://C:/Users/c2n123/Documents/GitHub/laravel/cat/app/Http/routes.php&#10;sub&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Subscriptions.php&#10;we&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/welcome.blade.php&#10;welcom&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/emails/welcome.blade.php&#10;inde&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/blog/index.blade.php&#10;subsc&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Subscriptions.php&#10;ro&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;sing&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/blog_single.blade.php&#10;show&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/blog/show.blade.php&#10;blogcon&#9;null&#9;null&#10;rou&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;master&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/layouts/master.blade.php&#10;blog_sin&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/blog_single.blade.php&#10;route&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;blog&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/pages/blog_list.blade.php&#10;mas&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/layouts/master.blade.php&#10;boots&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/public/assets/css/library/bootstrap.min.css&#10;routes&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/routes.php&#10;crea&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/contacts/create.blade.php&#10;contac&#9;null&#9;null&#10;pas&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/Controllers/Auth/PasswordController.php&#10;re&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php&#10;user.php&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/lang/user.php&#10;users&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2014_10_12_000000_create_users_table.php&#10;.en&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/.env&#10;mail.&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/config/mail.php&#10;header&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/templates/header.blade.php&#10;lo&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/auth/login.blade.php&#10;authc&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/app/Http/Controllers/Auth/AuthController.php&#10;passwordco&#9;null&#9;null&#10;head&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/templates/head.blade.php&#10;app.p&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/config/app.php&#10;m&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/resources/views/layouts/master.blade.php&#10;pages&#9;null&#9;null&#10;mockhi&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_210709_create_mockhistories_table.php&#10;temp&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204253_create_templatetypes_table.php&#10;ques&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_205056_create_questions_table.php&#10;mockques&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_211644_create_mockquestions_table.php&#10;questionst&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_210834_create_questionstatuses_table.php&#10;mockhis&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_211211_create_mockhistorydetails_table.php&#10;questiono&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_210212_create_questionoptions_table.php&#10;questiontype&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_205738_create_questiontypes_table.php&#10;tem&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204253_create_templatetypes_table.php&#10;questi&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_205056_create_questions_table.php&#10;exammock&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204503_create_exammocks_table.php&#10;templ&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_204253_create_templatetypes_table.php&#10;examsub&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_203411_create_examsubtopics_table.php&#10;examtop&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_203316_create_examtopics_table.php&#10;examsec&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_203210_create_examsections_table.php&#10;exa&#9;FILE&#9;file://C:/wamp/www/laravel/cracku2/database/migrations/2015_10_11_202949_create_examtypes_table.php" />
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -396,15 +417,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2562777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25402635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -415,7 +437,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -436,13 +457,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.151463">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3666093">
@@ -517,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08777969">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -615,7 +622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="95225" selection-start-line="4" selection-start-column="95221" selection-end-line="4" selection-end-column="95225" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7364621">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_19_035904_create_blogs_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61445785">
@@ -693,7 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="150" column="0" selection-start-line="150" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="87" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,15 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/blog_single.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="344" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -741,39 +727,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8321678">
           <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Subscriptions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923">
-          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
-          <folding />
+        <state vertical-scroll-proportion="0.151463">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_19_083420_create_subscriptions_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.692308">
-          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.73077">
-          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
-          <folding />
+        <state vertical-scroll-proportion="0.38554215">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -781,25 +748,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="40" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.151463">
+          <caret line="45" column="65" selection-start-line="45" selection-start-column="65" selection-end-line="45" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2015_10_19_083420_create_subscriptions_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Subscriptions.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PagesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2972028">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="e#24#63#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-12.538462">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/blog_single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.730769">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/abhi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05851979">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

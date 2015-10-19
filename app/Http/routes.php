@@ -13,6 +13,7 @@
 
 Route::get('/', 'PagesController@welcome');
 Route::get('/blog-single', 'PagesController@blog_single');
+Route::get('/abhi', 'PagesController@abhi');
 Route::get('/blog-list', 'PagesController@blog_list');
 Route::get('/auth/register/verify/{id}/{confirmation_code}','Auth\AuthController@getEmailVerify');
 
