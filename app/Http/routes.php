@@ -61,4 +61,5 @@ Route::resource('author', 'AuthorController');
 Route::resource('blog', 'BlogController');
 Route::resource('tags', 'TagsController');
 
+
 Route::resource('subscription', 'SubscriptionController');
