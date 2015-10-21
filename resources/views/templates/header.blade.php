@@ -77,20 +77,28 @@
 					</li>
 --}}
 					<li class="menu-item-has-children">
-						<a href="blog">Blog</a>
+						<a href="article">Article</a>
+						<ul class="sub-menu">
+							<li><a href="/news">Latest News</a></li>
+							<li><a href="/blog">Blog</a></li>
+							<li><a href="/event">Event</a></li>
+							<li><a href="/announcement">Announcement</a></li>
+							<li><a href="/article/create">Write an article</a></li>
+						</ul>
 					</li>
 					<li class="menu-item-has-children">
 						@if (Auth::guest())
 							<a href="/auth/login">Login</a>
 						@else
-							<a href="/users/profile">{{ Auth::user()->first_name }}</a>
+							{{--<a href="/users/profile">{{ Auth::user()->first_name }}</a>--}}
+							<a href="#">{{ Auth::user()->first_name }}</a>
 						@endif
 						<ul class="sub-menu">
 						@if (Auth::guest())
 							<li><a href="/auth/login">Login</a></li>
 							<li><a href="/auth/register">Register</a></li>
 						@else
-							<li><a href="/users/profile">{{ 'My Profile' }}</a></li>
+							{{--<li><a href="/users/profile">{{ 'My Profile' }}</a></li>--}}
 							<li><a href="{{ url('/auth/logout') }}">Logout</a></li>
 						@endif
 						</ul>

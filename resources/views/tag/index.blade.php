@@ -17,7 +17,7 @@
                 <tr>
                     <td>{{ $x }}</td>
                     <td><a href="{{ url('/tags', $item->id) }}">{{ $item->tag }}</a></td>
-                    <td><a href="{{ url('/tags/'.$item->id.'/edit') }}"><button type="submit" class="btn btn-primary btn-xs">Update</button></a> / {!! Form::open(['method'=>'delete','action'=>['TagsController@destroy',$item->id], 'style' => 'display:inline']) !!}<button type="submit" class="btn btn-danger btn-xs">Delete</button>{!! Form::close() !!}</td>
+                    <td><a href="{{ url('/tags/'.$item->id.'/edit') }}"><button type="submit" class="btn btn-primary btn-xs">Update</button></a> / {!! Form::open(['method'=>'delete','action'=>['TagController@destroy',$item->id], 'style' => 'display:inline']) !!}<button type="submit" class="btn btn-danger btn-xs">Delete</button>{!! Form::close() !!}</td>
                 </tr>
             @endforeach
             </tbody>

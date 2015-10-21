@@ -118,62 +118,16 @@
             <a href="categories.html" class="all-course mc-btn btn-style-1">View all</a>
             <div class="row">
                 <div class="feature-slider">
+
                     <div class="mc-item mc-item-1">
                         <div class="image-heading">
-                            <img src="/assets/images/feature/l1.jpg" alt="">
+                            <a href="{{url('/news')}}"><img src="{{asset('/assets/images/feature/news.jpg')}}" class="img-responsive" alt="Featured Image"></a>
                         </div>
-                        <div class="meta-categories"><a href="#">Latest News</a></div>
                         <div class="content-item">
-                            <div class="image-author">
-                                <img src="/assets/images/avatar-1.jpg" alt="">
-                            </div>
-                            <h4><a href="course-intro.html">The Complete Digital Photography Course Amazon Top Seller</a></h4>
-                            <div class="name-author">
-                                By <a href="#">John Mathews</a>
-                            </div>
+                           <a href="{{url('/news')}}">Latest News</a>
                         </div>
                         <div class="ft-item">
-                            <a href="#" class="button">
-                                <span>Read more</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="mc-item mc-item-1">
-                        <div class="image-heading">
-                            <img src="/assets/images/feature/l2.jpg" alt="">
-                        </div>
-                        <div class="meta-categories"><a href="#">Blog</a></div>
-                        <div class="content-item">
-                            <div class="image-author">
-                                <img src="/assets/images/avatar-1.jpg" alt="">
-                            </div>
-                            <h4><a href="course-intro.html">The Complete Digital Photography Course Amazon Top Seller</a></h4>
-                            <div class="name-author">
-                                <span>By <a href="#">Steven</a></span>
-                            </div>
-                        </div>
-                        <div class="ft-item">
-                            <a href="#" class="button">
-                                <span>Read more</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="mc-item mc-item-1">
-                        <div class="image-heading">
-                            <img src="/assets/images/feature/l3.jpg" alt="">
-                        </div>
-                        <div class="meta-categories"><a href="#">events</a></div>
-                        <div class="content-item">
-                            <div class="image-author">
-                                <img src="/assets/images/avatar-1.jpg" alt="">
-                            </div>
-                            <h4><a href="course-intro.html">The Complete Digital Photography Course Amazon Top Seller</a></h4>
-                            <div class="name-author">
-                                <span>By <a href="#">Mark</a></span>
-                            </div>
-                        </div>
-                        <div class="ft-item">
-                            <a href="#" class="button">
+                            <a href="{{url('/news')}}" class="button">
                                 <span>Read more</span>
                             </a>
                         </div>
@@ -181,25 +135,45 @@
 
                     <div class="mc-item mc-item-1">
                         <div class="image-heading">
-                            <img src="/assets/images/feature/l4.jpg" alt="">
+                            <a href="{{url('/blog')}}"><img src="{{asset('/assets/images/feature/blog.jpg')}}" class="img-responsive" alt="Featured Image"></a>
                         </div>
-                        <div class="meta-categories"><a href="#">announcements</a></div>
                         <div class="content-item">
-                            <div class="image-author">
-                                <img src="/assets/images/avatar-1.jpg" alt="">
-                            </div>
-                            <h4><a href="course-intro.html">The Complete Digital Photography Course Amazon Top Seller</a></h4>
-                            <div class="name-author">
-                                <span>By <a href="#">Symonds Hatchgill</a></span>
-                            </div>
+                           <a href="{{url('/blog')}}">Blog</a>
                         </div>
                         <div class="ft-item">
-                            <a href="#" class="button">
+                            <a href="{{url('/blog')}}" class="button">
                                 <span>Read more</span>
                             </a>
                         </div>
                     </div>
 
+                    <div class="mc-item mc-item-1">
+                        <div class="image-heading">
+                            <a href="{{url('/event')}}"><img src="{{asset('/assets/images/feature/event.jpg')}}" class="img-responsive" alt="Featured Image"></a>
+                        </div>
+                        <div class="content-item">
+                           <a href="{{url('/event')}}">Events</a>
+                        </div>
+                        <div class="ft-item">
+                            <a href="{{url('/event')}}" class="button">
+                                <span>Read more</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="mc-item mc-item-1">
+                        <div class="image-heading">
+                            <a href="{{url('/announcement')}}"><img src="{{asset('/assets/images/feature/announcement.jpg')}}" class="img-responsive" alt="Featured Image"></a>
+                        </div>
+                        <div class="content-item">
+                           <a href="{{url('/announcement')}}">Announcements</a>
+                        </div>
+                        <div class="ft-item">
+                            <a href="{{url('/announcement')}}" class="button">
+                                <span>Read more</span>
+                            </a>
+                        </div>
+                    </div>
 
                 </div>
             </div>

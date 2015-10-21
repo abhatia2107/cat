@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <h1>Blog</h1>
+    <h1>Article</h1>
     <div class="table-responsive">
         <table class="table table-bordered table-striped table-hover">
             <thead>
@@ -12,7 +12,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>{{ $blog->id }}</td> <td> {{ $blog->title }} </td><td> {{ $blog->category_id }} </td><td> {{ $blog->photo }} </td>
+                    <td>{{ $article->id }}</td> <td> {{ $article->title }} </td><td> {{ $article->category_id }} </td><td> {{ $article->photo }} </td>
                 </tr>
             </tbody>
         </table>

@@ -2,10 +2,10 @@
 
 @section('content')
 
-    <h1>Edit Blog</h1>
+    <h1>Edit Article</h1>
     <hr/>
 
-    {!! Form::model($blog, ['method' => 'PATCH', 'action' => ['BlogController@update', $blog->id], 'class' => 'form-horizontal']) !!}
+    {!! Form::model($article, ['method' => 'PATCH', 'action' => ['ArticleController@update', $article->id], 'class' => 'form-horizontal']) !!}
 
     <div class="form-group">
                         {!! Form::label('title', 'Title: ', ['class' => 'col-sm-3 control-label']) !!}

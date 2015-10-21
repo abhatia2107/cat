@@ -2,10 +2,10 @@
 
 @section('content')
 
-    <h1>Create New Blog</h1>
+    <h1>Create New Article</h1>
     <hr/>
 
-    {!! Form::open(['url' => 'blog', 'class' => 'form-horizontal', 'files'=>true]) !!}
+    {!! Form::open(['url' => 'article', 'class' => 'form-horizontal', 'files'=>true]) !!}
     
     <div class="form-group">
                         {!! Form::label('title', 'Title: ', ['class' => 'col-sm-3 control-label']) !!}
@@ -15,7 +15,7 @@
                     </div><div class="form-group">
                         {!! Form::label('category_id', 'Category Id: ', ['class' => 'col-sm-3 control-label']) !!}
                         <div class="col-sm-6">
-                            {!! Form::text('category_id', null, ['class' => 'form-control']) !!}
+                            {!! Form::select('category_id', $categories, null, ['class' => 'form-control']) !!}
                         </div>
                     </div><div class="form-group">
                         {!! Form::label('photo', 'Photo: ', ['class' => 'col-sm-3 control-label']) !!}
@@ -25,7 +25,8 @@
                     </div><div class="form-group">
                         {!! Form::label('tags', 'Tags: ', ['class' => 'col-sm-3 control-label']) !!}
                         <div class="col-sm-6">
-                            {!! Form::text('tags', null, ['class' => 'form-control', "data-role"=>"tagsinput" ]) !!}
+                            {!! Form::select('tags[]', $tags, null, ['class' => 'form-control', 'multiple'=>'multiple','id'=>'tags']) !!}
+{{--                            {!! Form::select('tags[]', $tags, $article->tags->lists('id')->all(), ['class' => 'form-control', 'multiple'=>'multiple','id'=>'tags']) !!}--}}
                         </div>
                     </div><div class="form-group">
                         {!! Form::label('details', 'Details: ', ['class' => 'col-sm-3 control-label']) !!}
@@ -40,5 +41,9 @@
         </div>    
     </div>
     {!! Form::close() !!}
+
+    {{--<script src="http://cdn.ckeditor.com/4.5.4/standard/ckeditor.js"></script>--}}
+    <script src="http://js.nicedit.com/nicEdit-latest.js" type="text/javascript"></script>
+    <script type="text/javascript">bkLib.onDomLoaded(nicEditors.allTextAreas);</script>
 
 @endsection

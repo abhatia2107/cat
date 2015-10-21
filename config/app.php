@@ -155,6 +155,8 @@ return [
          */
 
         Intervention\Image\ImageServiceProvider::class,
+
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider', // Laravel IDE helper
     ],
 
     /*

@@ -7,7 +7,7 @@
 
     1.  Reset
     2.  Header
-    3.  Blog
+    3.  Article
     4.  Slider
     5.  Main all
     6. Responsive
@@ -1679,15 +1679,15 @@ table.mc-table tbody .new .submissions a:before {
 .search-box input:-ms-input-placeholder {
   color: #fff;
 }
-/* 3.   Blog
+/* 3.   Article
 --------------------------------------------------------------------------------*/
-.blog {
+.article {
   background-color: #eee;
   padding-top: 65px;
   padding-bottom: 65px;
 }
 
-.blog-list-content {
+.article-list-content {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -1741,11 +1741,11 @@ table.mc-table tbody .new .submissions a:before {
   color: #37ABF2;
 }
 
-.blog-sidebar {
+.article-sidebar {
   position: relative;
   padding-bottom: 50px;
 }
-.blog-sidebar:before {
+.article-sidebar:before {
   content: '';
   display: block;
   position: absolute;
@@ -1754,19 +1754,19 @@ table.mc-table tbody .new .submissions a:before {
   border-left: 1px solid #D4D4D4;
   border-right: 1px solid #fff;
 }
-.blog-sidebar .widget {
+.article-sidebar .widget {
   margin-bottom: 50px;
 }
-.blog-sidebar .widget h4 {
+.article-sidebar .widget h4 {
   font-weight: 700;
   color: #262626;
   border-bottom: 1px solid #d4d4d4;
   padding-bottom: 10px;
 }
-.blog-sidebar .widget_search form {
+.article-sidebar .widget_search form {
   position: relative;
 }
-.blog-sidebar .widget_search .form-item input {
+.article-sidebar .widget_search .form-item input {
   height: 40px;
   line-height: 40px;
   color: #666;
@@ -1778,7 +1778,7 @@ table.mc-table tbody .new .submissions a:before {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-.blog-sidebar .widget_search .form-actions {
+.article-sidebar .widget_search .form-actions {
   position: absolute;
   height: 26px;
   margin: auto;
@@ -1786,17 +1786,17 @@ table.mc-table tbody .new .submissions a:before {
   bottom: 0;
   right: 15px;
 }
-.blog-sidebar .widget_search .form-actions input {
+.article-sidebar .widget_search .form-actions input {
   font-size: 0;
   width: 12px; height: 12px;
   border: 0;
   background-color: transparent;
   background: url('../images/search.png') no-repeat 50% 50%;
 }
-.blog-sidebar .widget_categories > ul {
+.article-sidebar .widget_categories > ul {
   padding-left: 12px;
 }
-.blog-sidebar .widget_categories > ul li {
+.article-sidebar .widget_categories > ul li {
   position: relative;
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -1804,7 +1804,7 @@ table.mc-table tbody .new .submissions a:before {
   color: #A6A6A6;
   padding: 10px 25px;
 }
-.blog-sidebar .widget_categories > ul > li:after {
+.article-sidebar .widget_categories > ul > li:after {
   content: '';
   display: block;
   position: absolute;
@@ -1817,33 +1817,33 @@ table.mc-table tbody .new .submissions a:before {
   top: 0; bottom: 0; left: 0;
 
 }
-.blog-sidebar .widget_categories > ul li a {
+.article-sidebar .widget_categories > ul li a {
   color: inherit;
 }
-.blog-sidebar .widget_categories > ul li a:hover {
+.article-sidebar .widget_categories > ul li a:hover {
   color: #37ABF2;
 }
 
-.blog-sidebar .widget_recent_post ul li {
+.article-sidebar .widget_recent_post ul li {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #A6A6A6;
   padding: 10px 0;
 }
-.blog-sidebar .widget_recent_post ul li a {
+.article-sidebar .widget_recent_post ul li a {
   color: inherit;
 }
-.blog-sidebar .widget_recent_post ul li a:hover {
+.article-sidebar .widget_recent_post ul li a:hover {
   color: #37ABF2;
 }
 
-.blog-sidebar .tagcloud {
+.article-sidebar .tagcloud {
   font-size: 0;
   margin-left: -5px;
   margin-right: -5px;
 }
-.blog-sidebar .tagcloud a {
+.article-sidebar .tagcloud a {
   display: inline-block;
   background-color: #fff;
   padding: 2px 6px;
@@ -1853,22 +1853,22 @@ table.mc-table tbody .new .submissions a:before {
   color: #3F3F3F;
   margin: 5px;
 }
-.blog-sidebar .tagcloud a:hover {
+.article-sidebar .tagcloud a:hover {
   background-color: #37ABF2;
   color: #fff;
 }
-.blog-list-content .pager {
+.article-list-content .pager {
   font-size: 0;
   margin-left: -5px;
   margin-right: -5px;
   text-align: left;
 }
 
-.blog-list-content .pager li {
+.article-list-content .pager li {
   padding: 0;
   margin: 5px;
 }
-.blog-list-content .pager li a {
+.article-list-content .pager li a {
   display: inline-block;
   background-color: #D4D4D4;
   color: #666;
@@ -1881,7 +1881,7 @@ table.mc-table tbody .new .submissions a:before {
   font-size: 14px;
   border: 0;
 }
-.blog-list-content .pager li.pager-current {
+.article-list-content .pager li.pager-current {
   display: inline-block;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1893,7 +1893,7 @@ table.mc-table tbody .new .submissions a:before {
   background-color: #37ABF2;
   color: #fff;
 }
-.blog-list-content .pager li a:hover {
+.article-list-content .pager li a:hover {
   background-color: #37ABF2;
   color: #fff;
 }
@@ -1909,7 +1909,7 @@ table.mc-table tbody .new .submissions a:before {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.blog-single-content h1 {
+.article-single-content h1 {
   margin-top: 0;
   font-weight: 700;
   color: #262626;
@@ -1939,12 +1939,12 @@ table.mc-table tbody .new .submissions a:before {
   padding-bottom: 10px;
   color: #666;
 }
-.blog h1,
-.blog h2,
-.blog h3,
-.blog h4,
-.blog h5,
-.blog h6 {
+.article h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6 {
   color: #262626;
   font-weight: 700;
 }
@@ -8237,7 +8237,7 @@ footer#footer.footer-style-2 {
   .course-concern {
     padding-top: 20px;
   }
-  .blog-sidebar:before {
+  .article-sidebar:before {
     display: none;
   }
   .top-nav,

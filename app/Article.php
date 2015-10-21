@@ -4,15 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Blog extends Model
+class Article extends Model
 {
-
-    /**
-     * The database table used by the model.
-     *
-     * @var string
-     */
-    protected $table = 'blogs';
 
     /**
      * Attributes that should be mass-assignable.
@@ -32,10 +25,14 @@ class Blog extends Model
         'details'=>'required'
     ];
 
-
     public function user()
     {
         return $this->belongsTo('App\User');
+    }
+
+    public function category()
+    {
+        return $this->belongsTo('App\Category');
     }
 
     public function tag()

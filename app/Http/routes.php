@@ -12,8 +12,7 @@
 */
 
 Route::get('/', 'PagesController@welcome');
-Route::get('/blog-single', 'PagesController@blog_single');
-Route::get('/blog-list', 'PagesController@blog_list');
+Route::get('/article-list', 'PagesController@article_list');
 Route::get('/auth/register/verify/{id}/{confirmation_code}','Auth\AuthController@getEmailVerify');
 
 
@@ -56,9 +55,11 @@ Route::resource('templatetype', 'TemplateTypeController');
 Route::resource('users', 'UsersController');
 
 Route::resource('contact', 'ContactsController');
-
-Route::resource('blog', 'BlogController');
+Route::resource('article', 'ArticleController');
 Route::resource('tag', 'TagController');
-
-
 Route::resource('subscription', 'SubscriptionController');
+Route::resource('category', 'CategoryController');
+Route::get('blog', 'ArticleController@blog');
+Route::get('news', 'ArticleController@news');
+Route::get('event', 'ArticleController@event');
+Route::get('announcement', 'ArticleController@announcement');

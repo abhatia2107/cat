@@ -2,22 +2,22 @@
 
 @section('content')
 
-    <h1>Edit Tag</h1>
+    <h1>Create New Category</h1>
     <hr/>
 
-    {!! Form::model($tag, ['method' => 'PATCH', 'action' => ['TagsController@update', $tag->id], 'class' => 'form-horizontal']) !!}
-
-    <div class="form-group">
-                        {!! Form::label('tag', 'Tag: ', ['class' => 'col-sm-3 control-label']) !!}
-                        <div class="col-sm-6">
-                            {!! Form::text('tag', null, ['class' => 'form-control']) !!}
-                        </div>
-                    </div>
+    {!! Form::open(['url' => 'category', 'class' => 'form-horizontal']) !!}
     
     <div class="form-group">
+                        {!! Form::label('category', 'Category: ', ['class' => 'col-sm-3 control-label']) !!}
+                        <div class="col-sm-6">
+                            {!! Form::text('category', null, ['class' => 'form-control']) !!}
+                        </div>
+                    </div>
+
+    <div class="form-group">
         <div class="col-sm-offset-3 col-sm-3">
-            {!! Form::submit('Update', ['class' => 'btn btn-primary form-control']) !!}
-        </div>
+            {!! Form::submit('Create', ['class' => 'btn btn-primary form-control']) !!}
+        </div>    
     </div>
     {!! Form::close() !!}
 

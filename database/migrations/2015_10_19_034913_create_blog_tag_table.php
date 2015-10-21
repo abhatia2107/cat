@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBlogTagTable extends Migration
+class CreateArticleTagTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,8 +12,8 @@ class CreateBlogTagTable extends Migration
      */
     public function up()
     {
-        Schema::create('blog_tag', function(Blueprint $table) {
-            $table->integer('blog_id')->foreign('blog_id')->references('id')->on('blogs');
+        Schema::create('article_tag', function(Blueprint $table) {
+            $table->integer('article_id')->foreign('article_id')->references('id')->on('articles');
             $table->integer('tag_id')->foreign('tag_id')->references('id')->on('tags');
         });
     }
@@ -25,6 +25,6 @@ class CreateBlogTagTable extends Migration
      */
     public function down()
     {
-        Schema::drop('blog_tag');
+        Schema::drop('article_tag');
     }
 }

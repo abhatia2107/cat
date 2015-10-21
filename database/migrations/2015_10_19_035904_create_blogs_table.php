@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateBlogsTable extends Migration
+class CreateArticlesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateBlogsTable extends Migration
     public function up()
     {
         
-            Schema::create('blogs', function(Blueprint $table) {
+            Schema::create('articles', function(Blueprint $table) {
                 $table->increments('id');
                 $table->string('title');
-                $table->integer('category_id');
+                $table->integer('category_id')->foreign('category_id')->references('id')->on('categories');
                 $table->boolean('photo');
                 $table->string('video_url');
                 $table->text('details');
@@ -33,6 +33,6 @@ class CreateBlogsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('blogs');
+        Schema::drop('articles');
     }
 }

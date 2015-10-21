@@ -5,7 +5,7 @@
     <h1>Create New Tag</h1>
     <hr/>
 
-    {!! Form::open(['url' => 'tags', 'class' => 'form-horizontal']) !!}
+    {!! Form::open(['url' => 'tag', 'class' => 'form-horizontal']) !!}
     
     <div class="form-group">
                         {!! Form::label('tag', 'Tag: ', ['class' => 'col-sm-3 control-label']) !!}
@@ -20,13 +20,5 @@
         </div>    
     </div>
     {!! Form::close() !!}
-
-    @if ($errors->any())
-        <ul class="alert alert-danger">
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    @endif
 
 @endsection

@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\Tag;
+use App\Category;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 
-class TagController extends Controller
+class CategoryController extends Controller
 {
 
 	/**
@@ -19,8 +19,8 @@ class TagController extends Controller
 	 */
 	public function index()
 	{
-		$tags = Tag::latest()->get();
-		return view('tag.index', compact('tags'));
+		$categories = Category::latest()->get();
+		return view('category.index', compact('categories'));
 	}
 
 	/**
@@ -30,7 +30,7 @@ class TagController extends Controller
 	 */
 	public function create()
 	{
-		return view('tag.create');
+		return view('category.create');
 	}
 
 	/**
@@ -41,9 +41,9 @@ class TagController extends Controller
 	 */
 	public function store(Request $request)
 	{
-		$this->validate($request, ['tag' => 'required']); // Uncomment and modify if you need to validate any input.
-		Tag::create($request->all());
-		return redirect('tag');
+		//$this->validate($request, ['name' => 'required']); // Uncomment and modify if you need to validate any input.
+		Category::create($request->all());
+		return redirect('category');
 	}
 
 	/**
@@ -54,8 +54,8 @@ class TagController extends Controller
 	 */
 	public function show($id)
 	{
-		$tag = Tag::findOrFail($id);
-		return view('tag.show', compact('tag'));
+		$category = Category::findOrFail($id);
+		return view('category.show', compact('category'));
 	}
 
 	/**
@@ -66,8 +66,8 @@ class TagController extends Controller
 	 */
 	public function edit($id)
 	{
-		$tag = Tag::findOrFail($id);
-		return view('tag.edit', compact('tag'));
+		$category = Category::findOrFail($id);
+		return view('category.edit', compact('category'));
 	}
 
 	/**
@@ -79,9 +79,9 @@ class TagController extends Controller
 	public function update($id, Request $request)
 	{
 		//$this->validate($request, ['name' => 'required']); // Uncomment and modify if you need to validate any input.
-		$tag = Tag::findOrFail($id);
-		$tag->update($request->all());
-		return redirect('tag');
+		$category = Category::findOrFail($id);
+		$category->update($request->all());
+		return redirect('category');
 	}
 
 	/**
@@ -92,8 +92,8 @@ class TagController extends Controller
 	 */
 	public function destroy($id)
 	{
-		Tag::destroy($id);
-		return redirect('tag');
+		Category::destroy($id);
+		return redirect('category');
 	}
 
 }

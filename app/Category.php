@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Tag extends Model
+class Category extends Model
 {
 
     /**
@@ -12,14 +12,14 @@ class Tag extends Model
      *
      * @var string
      */
-    protected $table = 'tags';
+    protected $table = 'categories';
 
     /**
      * Attributes that should be mass-assignable.
      *
      * @var array
      */
-    protected $fillable = ['tag'];
+    protected $fillable = ['category'];
 
     public function article()
     {

@@ -28,26 +28,6 @@ class PagesController extends Controller
     }
 
     /**
-     * To display blog-list page of the app
-     * @return \Illuminate\View\View
-     */
-
-    public function blog_list()
-    {
-        return view('pages.blog_list');
-    }
-
-    /**
-     * To display blog-single page of the app
-     * @return \Illuminate\View\View
-     */
-
-    public function blog_single()
-    {
-        return view('pages.blog_single');
-    }
-
-    /**
      * To display about us page of the app
      * @return \Illuminate\View\View
      */

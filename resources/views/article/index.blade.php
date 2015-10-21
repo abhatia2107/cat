@@ -5,34 +5,32 @@
     <div class="awe-static bg-sub-banner-course"></div>
     <div class="container">
         <div class="sub-banner-content">
-            <h2 class="text-center">{{'Blog'}}</h2>
+            <h2 class="text-center">{{ ucwords(str_replace("/"," ", $_SERVER['REQUEST_URI'])) }}</h2>
         </div>
     </div>
 </section>
 <!-- END / SUB BANNER -->
 
 
-<!-- BLOG -->
-<section class="blog">
+<!-- ARTICLE -->
+<section class="article">
 
     <div class="container">
         <div class="row">
 
-            <!-- BLOG LIST -->
+            <!-- ARTICLE LIST -->
             <div class="col-md-12">
-                <div class="blog-list-content">
-                    {{-- */$x=0;/* --}}
-                    @foreach($blogs as $item)
-                        {{-- */$x++;/* --}}
+                <div class="article-list-content">
+                    @foreach($articles as $item)
                     <!-- POST -->
                     <div class="post">
                         <!-- POST MEDIA -->
                         <div class="post-media">
                             <div class="image-thumb">
                                 @if($item->photo)
-                                    <img src="{{ asset('/assets/images/blog/'. $item->id. '.jpg') }}" class="img-responsive" alt="BLOG IMAGE">
+                                    <img src="{{ asset('/assets/images/article/'. $item->id. '.jpg') }}" class="img-responsive" alt="ARTICLE IMAGE">
                                 @else
-                                    <img src="{{ asset('/assets/images/blog/default.jpg') }}" class="img-responsive" alt="BLOG IMAGE">
+                                    <img src="{{ asset('/assets/images/article/default.jpg') }}" class="img-responsive" alt="ARTICLE IMAGE">
                                 @endif
                             </div>
                         </div>
@@ -41,16 +39,18 @@
                         <!-- POST BODY -->
                         <div class="post-body">
                             <div class="post-title">
-                                <h3 class="md"><a href="{{ url('/blog', $item->id) }}">{{ $item->title }}</a></h3>
+                                <h3 class="md"><a href="{{ url('/article', $item->id) }}">{{ $item->title }}</a></h3>
                             </div>
                             <div class="post-meta">
                                 by <a href="{{ url('/user', $item->user->id) }}">{{ $item->user->first_name .' '. $item->user->last_name}}</a> on {{date('F d, Y', strtotime($item->created_at))}}
                             </div>
-                            <div class="post-content">
-                                <p>{{substr($item->details, 0, 400)}}</p>
+
+                            <div class="post-content text-justify">
+                                {!! substr($item->details, 0, 400) !!}
                             </div>
+
                             <div class="post-link">
-                                <a href="{{ url('/blog', $item->id) }}">
+                                <a href="{{ url('/article', $item->id) }}">
                                     <i class="fa fa-play-circle-o"></i>
                                     Read More
                                 </a>
@@ -60,14 +60,14 @@
                     </div>
                     <!-- END / POST -->
                     @endforeach
-                        {!! $blogs->render() !!}
+                        {!! $articles->render() !!}
                 </div>
             </div>
-            <!-- END / BLOG LIST -->
+            <!-- END / ARTICLE LIST -->
 
         </div>
     </div>
 
 </section>
-<!-- END / BLOG -->
+<!-- END / ARTICLE -->
 @endsection
