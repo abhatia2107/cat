@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'PagesController@welcome');
-Route::get('/article-list', 'PagesController@article_list');
+
 Route::get('/auth/register/verify/{id}/{confirmation_code}','Auth\AuthController@getEmailVerify');
 
 
