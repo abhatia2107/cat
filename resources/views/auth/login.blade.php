@@ -49,3 +49,45 @@
     <!-- END / LOGIN -->
 
 @endsection
+{{--
+
+@section('pagejquery')
+    <script type="text/javascript" >
+        $(document).ready(function(){
+            $('#login').bootstrapValidator({
+                message: 'This value is not valid',
+                fields: {
+                    password: {
+                        message: 'The password is not valid',
+                        validators: {
+                            notEmpty: {
+                                message: 'The password is required and cannot be empty'
+                            },
+                            stringLength: {
+                                min: 6,
+                                max: 20,
+                                message: 'The password must be more than 6 and less than 20 characters long'
+                            },
+                            regexp: {
+                                regexp: /^[a-zA-Z0-9!@#$-%&_]+$/,
+                                message: 'The password can only consist of alphabetical, number and following special symbol !,@,#,$,-,%,&,_'
+                            }
+                        }
+                    },
+
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The email is required and cannot be empty'
+                            },
+                            emailAddress: {
+                                message: 'The input is not a valid email address'
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+
+@endsection--}}

@@ -5,11 +5,11 @@ namespace App\Http\Controllers;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
-use App\Tags;
+use App\Tag;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 
-class TagsController extends Controller
+class TagController extends Controller
 {
 
 	/**
@@ -19,7 +19,7 @@ class TagsController extends Controller
 	 */
 	public function index()
 	{
-		$tags = Tags::latest()->get();
+		$tags = Tag::latest()->get();
 		return view('tags.index', compact('tags'));
 	}
 
@@ -41,7 +41,7 @@ class TagsController extends Controller
 	public function store(Request $request)
 	{
 		//$this->validate($request, ['name' => 'required']); // Uncomment and modify if you need to validate any input.
-		Tags::create($request->all());
+		Tag::create($request->all());
 		return redirect('tags');
 	}
 
@@ -53,7 +53,7 @@ class TagsController extends Controller
 	 */
 	public function show($id)
 	{
-		$tag = Tags::findOrFail($id);
+		$tag = Tag::findOrFail($id);
 		return view('tags.show', compact('tag'));
 	}
 
@@ -65,7 +65,7 @@ class TagsController extends Controller
 	 */
 	public function edit($id)
 	{
-		$tag = Tags::findOrFail($id);
+		$tag = Tag::findOrFail($id);
 		return view('tags.edit', compact('tag'));
 	}
 
@@ -78,7 +78,7 @@ class TagsController extends Controller
 	public function update($id, Request $request)
 	{
 		//$this->validate($request, ['name' => 'required']); // Uncomment and modify if you need to validate any input.
-		$tag = Tags::findOrFail($id);
+		$tag = Tag::findOrFail($id);
 		$tag->update($request->all());
 		return redirect('tags');
 	}
@@ -91,7 +91,7 @@ class TagsController extends Controller
 	 */
 	public function destroy($id)
 	{
-		Tags::destroy($id);
+		Tag::destroy($id);
 		return redirect('tags');
 	}
 

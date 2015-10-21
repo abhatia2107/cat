@@ -12,9 +12,9 @@
                         <h2>Learn more - Earn more</h2>
                         <p>this is not only an elegant theme but also<br> a course management system<br> for wordpress and drupal
                         </p>
-                        <div class="group">
+                        {{--<div class="group">
                             <a href="#" class="mc-btn btn-style-1">See full features</a>
-                        </div>
+                        </div>--}}
                     </div>
 
                     <div class="img">
@@ -32,9 +32,9 @@
                         <h2>Learn more - Earn more</h2>
                         <p>this is not only an elegant theme but also<br> a course management system<br> for wordpress and drupal
                         </p>
-                        <div class="group">
+                        {{--<div class="group">
                             <a href="#" class="mc-btn btn-style-1">See full features</a>
-                        </div>
+                        </div>--}}
                     </div>
 
                     <div class="img">
@@ -142,7 +142,7 @@
                         <div class="image-heading">
                             <img src="/assets/images/feature/l2.jpg" alt="">
                         </div>
-                        <div class="meta-categories"><a href="#">notifications</a></div>
+                        <div class="meta-categories"><a href="#">Blog</a></div>
                         <div class="content-item">
                             <div class="image-author">
                                 <img src="/assets/images/avatar-1.jpg" alt="">

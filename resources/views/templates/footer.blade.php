@@ -60,11 +60,11 @@
                                 <p>Don't miss a course sale! Join our network today and keep it up!</p>
                             </div>
                             <div class="letter">
-                                <form>
-                                    <input class="input-text" type="text">
+                                {!! Form::open(['url' => 'subscription', 'id' => 'subscription', 'class' => 'form-horizontal']) !!}
+                                    {!! Form::text('email', null, ['class' => 'input-text', 'placeholder'=>'Enter your email address']) !!}
                                     <span class="no-spam">* No spam guaranteed</span>
-                                    <input type="submit" value="Submit now" class="mc-btn btn-style-2">
-                                </form>
+                                    <input type="submit" value="Submit now" class="btn mc-btn btn-style-2">
+                                {!! Form::close() !!}
                             </div>
                         </div>
                     </div>
@@ -96,5 +96,29 @@
 </footer>
 <!-- END / FOOTER -->
 
-
 @show
+{{--
+
+@section('pagejquery')
+    <script type="text/javascript" >
+        $(document).ready(function(){
+            $('#subscription').bootstrapValidator({
+                message: 'This value is not valid',
+                fields: {
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The email is required and cannot be empty'
+                            },
+                            emailAddress: {
+                                message: 'The input is not a valid email address'
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+
+@endsection
+--}}

@@ -5,7 +5,7 @@
     <h1>Create New Blog</h1>
     <hr/>
 
-    {!! Form::open(['url' => 'blog', 'class' => 'form-horizontal']) !!}
+    {!! Form::open(['url' => 'blog', 'class' => 'form-horizontal', 'files'=>true]) !!}
     
     <div class="form-group">
                         {!! Form::label('title', 'Title: ', ['class' => 'col-sm-3 control-label']) !!}
@@ -20,12 +20,12 @@
                     </div><div class="form-group">
                         {!! Form::label('photo', 'Photo: ', ['class' => 'col-sm-3 control-label']) !!}
                         <div class="col-sm-6">
-                            {!! Form::text('photo', null, ['class' => 'form-control']) !!}
+                            {!! Form::file('photo') !!}
                         </div>
                     </div><div class="form-group">
-                        {!! Form::label('video_url', 'Video Url: ', ['class' => 'col-sm-3 control-label']) !!}
+                        {!! Form::label('tags', 'Tags: ', ['class' => 'col-sm-3 control-label']) !!}
                         <div class="col-sm-6">
-                            {!! Form::text('video_url', null, ['class' => 'form-control']) !!}
+                            {!! Form::text('tags', null, ['class' => 'form-control', "data-role"=>"tagsinput" ]) !!}
                         </div>
                     </div><div class="form-group">
                         {!! Form::label('details', 'Details: ', ['class' => 'col-sm-3 control-label']) !!}
@@ -40,13 +40,5 @@
         </div>    
     </div>
     {!! Form::close() !!}
-
-    @if ($errors->any())
-        <ul class="alert alert-danger">
-            @foreach ($errors->all() as $error)
-                <li>{{ $error }}</li>
-            @endforeach
-        </ul>
-    @endif
 
 @endsection

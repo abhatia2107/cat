@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Mail;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -11,6 +12,15 @@ use Carbon\Carbon;
 
 class SubscriptionController extends Controller
 {
+
+	/**
+	 * SubscriptionsController constructor.
+	 */
+
+	public function __construct()
+	{
+		$this->middleware('auth', ['except' => ['create', 'store']]);
+	}
 
 	/**
 	 * Display a listing of the resource.
@@ -36,13 +46,28 @@ class SubscriptionController extends Controller
 	/**
 	 * Store a newly created resource in storage.
 	 *
+	 * @param Request $request
 	 * @return Response
 	 */
 	public function store(Request $request)
 	{
-		//$this->validate($request, ['name' => 'required']); // Uncomment and modify if you need to validate any input.
-		Subscriptions::create($request->all());
-		return redirect('subscription');
+		$this->validate($request, ['email' => 'required|email|unique:subscriptions']); // Uncomment and modify if needed.
+
+		$data=$request->all();
+
+		Subscriptions::create($data);
+
+		$data['name'] = trans('subscription.subscription_name');
+
+		$name = trans('subscription.subscription_name');
+		$email = $data['email'];
+		$subject= trans('subscription.subscription_email_subject');
+
+		Mail::queue('emails.subscription_submitted', $data, function($message) use ($email, $name ,$subject)
+		{
+			$message->bcc("abhishek.bhatia@hobbyix.com","Abhishek Bhatia")->to($email, $name)->subject($subject);
+		});
+		return redirect('/')->with('success',trans('subscription.subscription'));
 	}
 
 	/**

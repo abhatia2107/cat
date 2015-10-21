@@ -39,6 +39,7 @@
 <script type="text/javascript" src="/assets/js/library/jquery.easing.min.js"></script>
 <script type="text/javascript" src="/assets/js/scripts.js"></script>
 <script type="text/javascript" src="/assets/js/library/bootstrapValidator.min.js"></script>
+<script type="text/javascript" src="/assets/js/library/typeahead.js"></script>
 
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -49,6 +50,8 @@
 	ga('create', 'UA-20585382-5', 'megadrupal.com');
 	ga('send', 'pageview');
 </script>
+@yield('pagejquery')
+
 </body>
 
 <!-- Mirrored from envato.megadrupal.com/html/megacourse/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Sep 2015 03:54:29 GMT -->

@@ -55,11 +55,10 @@ Route::resource('subexamtypes', 'SubExamTypesController');
 Route::resource('templatetype', 'TemplateTypeController');
 Route::resource('users', 'UsersController');
 
-Route::resource('contacts', 'ContactsController');
+Route::resource('contact', 'ContactsController');
 
-Route::resource('author', 'AuthorController');
 Route::resource('blog', 'BlogController');
-Route::resource('tags', 'TagsController');
+Route::resource('tag', 'TagController');
 
 
 Route::resource('subscription', 'SubscriptionController');

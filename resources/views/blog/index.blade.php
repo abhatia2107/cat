@@ -5,7 +5,7 @@
     <div class="awe-static bg-sub-banner-course"></div>
     <div class="container">
         <div class="sub-banner-content">
-            <h2 class="text-center">Online Training</h2>
+            <h2 class="text-center">{{'Blog'}}</h2>
         </div>
     </div>
 </section>
@@ -29,7 +29,11 @@
                         <!-- POST MEDIA -->
                         <div class="post-media">
                             <div class="image-thumb">
-                                <img src="{{ asset('/assets/images/blog/'. $item->id. '.jpg') }}" alt="BLOG IMAGE">
+                                @if($item->photo)
+                                    <img src="{{ asset('/assets/images/blog/'. $item->id. '.jpg') }}" class="img-responsive" alt="BLOG IMAGE">
+                                @else
+                                    <img src="{{ asset('/assets/images/blog/default.jpg') }}" class="img-responsive" alt="BLOG IMAGE">
+                                @endif
                             </div>
                         </div>
                         <!-- END / POST MEDIA -->
@@ -40,7 +44,7 @@
                                 <h3 class="md"><a href="{{ url('/blog', $item->id) }}">{{ $item->title }}</a></h3>
                             </div>
                             <div class="post-meta">
-                                by <a href="{{ url('/author', $item->id) }}">{{ $item->name }}</a> on {{date('F d, Y', strtotime($item->created_at))}}
+                                by <a href="{{ url('/user', $item->user->id) }}">{{ $item->user->first_name .' '. $item->user->last_name}}</a> on {{date('F d, Y', strtotime($item->created_at))}}
                             </div>
                             <div class="post-content">
                                 <p>{{substr($item->details, 0, 400)}}</p>

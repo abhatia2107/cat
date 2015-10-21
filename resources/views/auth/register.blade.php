@@ -54,13 +54,23 @@
 
 
 @endsection
+{{--
 
 @section('pagejquery')
 
     <script type="text/javascript">
         $(document).ready(function(){
             $('#register').bootstrapValidator({
-                message: 'This value is not valid',
+                err: {
+                    container: function($field, validator) {
+                        // Look at the markup
+                        //  <div class="col-xs-4">
+                        //      <field>
+                        //  </div>
+                        //  <div class="col-xs-5 messageContainer"></div>
+                        return $field.parent().next('.messageContainer');
+                    }
+                },
                 fields: {
                     first_name: {
                         message: 'First Name is not valid',
@@ -138,4 +148,4 @@
             });
         });
     </script>
-@endsection
+@endsection--}}

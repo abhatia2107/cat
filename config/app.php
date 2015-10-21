@@ -149,6 +149,12 @@ return [
         */
         Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+
+        /*
+         * Intervention Image Service Providers
+         */
+
+        Intervention\Image\ImageServiceProvider::class,
     ],
 
     /*
@@ -197,6 +203,11 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+
+        /*
+         * Intervention aliases
+         */
+        'Image'     => Intervention\Image\Facades\Image::class,
 
         /*
          * Collective aliases

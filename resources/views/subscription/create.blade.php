@@ -5,7 +5,7 @@
     <h1>Create New Subscription</h1>
     <hr/>
 
-    {!! Form::open(['url' => 'subscription', 'class' => 'form-horizontal']) !!}
+    {!! Form::open(['url' => 'subscription', 'id' => 'subscription', 'class' => 'form-horizontal']) !!}
     
     <div class="form-group">
                         {!! Form::label('email', 'Email: ', ['class' => 'col-sm-3 control-label']) !!}

@@ -17,9 +17,10 @@ class CreateBlogsTable extends Migration
                 $table->increments('id');
                 $table->string('title');
                 $table->integer('category_id');
-                $table->string('photo');
+                $table->boolean('photo');
                 $table->string('video_url');
                 $table->text('details');
+                $table->integer('user_id')->foreign('user_id')->references('id')->on('users');
                 $table->timestamps();
             });
             

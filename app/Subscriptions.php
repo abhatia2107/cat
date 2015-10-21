@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Subscriptions extends Model
 {
     use SoftDeletes;
-    
+
     /**
      * The attributes that should be mutated to dates.
      *

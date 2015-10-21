@@ -7,7 +7,7 @@
 <div style="background:white;border-radius:10px;padding:0px 0px;margin:0px">
     <div style="text-align:center;width:100%;height:auto;background:#202e54;padding:0;margin-top:0px;border-top:1px;border-top-right-radius:10px;border-top-left-radius:10px;">
         <h1 style="color:#fff;padding:20px;">
-            Aptimyze
+            cat
         </h1>
     </div>
     <div style="padding:0px 40px">
@@ -21,17 +21,17 @@
             <div style="background:#1E2C4F;padding:10px 5px; color:white">
             </div>
             <div style="max-width:100%;padding:1.6% 2% 5% 2%;">
-                Thank you for showing interest in aptimyze.
+                Thank you for showing interest in cat.
                 Till then feel free to explore our site.
             </div>
         </div>
     </div>
     <div style="padding:1px 30px 1px 30px;background:#17223E;color:white;border-bottom-left-radius:10px;border-bottom-right-radius:10px;margin-top:30px">
         <p style="margin-bottom:2px">
-            For any further queries, reach out to us at: <a style="color:white" href="mailto:support@aptimyze.com">support@aptimyze.com</a>
+            For any further queries, reach out to us at: <a style="color:white" href="mailto:support@cat.com">support@cat.com</a>
         </p>
         <p style="text-align:center; color:#fff;margin-top:0px">
-            &copy; {{ date('Y') }}. Aptimyze
+            &copy; {{ date('Y') }}. cat
         </p>
     </div>
 </div>

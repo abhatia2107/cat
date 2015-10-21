@@ -28,8 +28,6 @@ class AuthController extends Controller
 
     /**
      * Create a new authentication controller instance.
-     *
-     * @return void
      */
     public function __construct()
     {
@@ -73,6 +71,7 @@ class AuthController extends Controller
             'confirmation_code'=>$data['confirmation_code'],
             'password' => bcrypt($data['password']),
         ]);
+
         $data['id']=$user->id;
 //        dd($data);
         $first_name = $data['first_name'];
