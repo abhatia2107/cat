@@ -31,15 +31,16 @@
 <!-- END / PAGE WRAP -->
 
 <!-- Load jQuery -->
-<script type="text/javascript" src="/assets/js/library/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="/assets/js/library/bootstrap.min.js"></script>
-<script type="text/javascript" src="/assets/js/library/jquery.owl.carousel.js"></script>
-<script type="text/javascript" src="/assets/js/library/jquery.appear.min.js"></script>
-<script type="text/javascript" src="/assets/js/library/perfect-scrollbar.min.js"></script>
-<script type="text/javascript" src="/assets/js/library/jquery.easing.min.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
-<script type="text/javascript" src="/assets/js/library/bootstrapValidator.min.js"></script>
-<script type="text/javascript" src="/assets/js/library/typeahead.js"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/jquery-1.11.0.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/jquery.owl.carousel.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/jquery.appear.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/perfect-scrollbar.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/jquery.easing.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/scripts.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/bootstrapValidator.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/flip.js')}}"></script>
+<script type="text/javascript" src="{{asset('/assets/js/library/typeahead.js')}}"></script>
 
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

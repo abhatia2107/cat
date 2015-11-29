@@ -20,7 +20,7 @@
                             <li>
                                 <a href="#">
                                     <div class="image-thumb">
-                                        <img src="/assets/images/team-13.jpg" alt="">
+                                        <img src="{{asset('/assets/images/team/13.jpg')}}" alt="Instructor Image">
                                     </div>
                                     <span>How to get prepared for the exam?</span>
                                 </a>
@@ -28,9 +28,9 @@
                             <li>
                                 <a href="#">
                                     <div class="image-thumb">
-                                        <img src="/assets/images/team-14.jpg" alt="">
+                                        <img src="{{asset('/assets/images/team/14.jpg')}}" alt="Instructor Image">
                                     </div>
-                                    <span>How to concentrate on training continously?</span>
+                                    <span>How to concentrate on training continuously?</span>
                                 </a>
                             </li>
                         </ul>
@@ -90,7 +90,7 @@
                     <span>Gachibowli, Hyderabad</span>
                 </div>
             </div>
-            <p class="copyright">Copyright © CAT. All rights reserved.</p>
+            <p class="copyright">Copyright ï¿½ CAT. All rights reserved.</p>
         </div>
     </div>
 </footer>
